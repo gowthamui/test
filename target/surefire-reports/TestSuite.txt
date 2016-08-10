@@ -1,0 +1,95 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 16, Errors: 0, Skipped: 0, Time elapsed: 1,049.11 sec <<< FAILURE!
+smoke06(com.kohls.app.pro.Smoke.PluSmokeEightTest)  Time elapsed: 45.266 sec  <<< FAILURE!
+java.lang.AssertionError: TestCase PPR_100_189_Simple_Percent_off_TC_06failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeEightTest.smoke06(PluSmokeEightTest.java:88)
+
+smoke16(com.kohls.app.pro.Smoke.PluSmokeEighteenTest)  Time elapsed: 39.728 sec  <<< FAILURE!
+java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeEighteenTest.smoke16(PluSmokeEighteenTest.java:82)
+
+smoke17(com.kohls.app.pro.Smoke.PluSmokeFifteenTest)  Time elapsed: 23.352 sec  <<< FAILURE!
+java.lang.AssertionError: Pricing Strategy Page is not navigated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.UpdatePriceDetailsPriceStrategyPage(AbstractTest.java:382)
+	at com.kohls.app.pro.Smoke.PluSmokeFifteenTest.smoke17(PluSmokeFifteenTest.java:78)
+
+smoke11(com.kohls.app.pro.Smoke.PluSmokeFiveTest)  Time elapsed: 30.889 sec  <<< FAILURE!
+java.lang.AssertionError: Pricing Strategy Page is not navigated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.UpdatePriceDetailsPriceStrategyPage(AbstractTest.java:382)
+	at com.kohls.app.pro.Smoke.PluSmokeFiveTest.smoke11(PluSmokeFiveTest.java:78)
+
+smoke18(com.kohls.app.pro.Smoke.PluSmokeFourteenTest)  Time elapsed: 45.411 sec  <<< FAILURE!
+java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeFourteenTest.smoke18(PluSmokeFourteenTest.java:81)
+
+smoke05(com.kohls.app.pro.Smoke.PluSmokeNineTest)  Time elapsed: 72.499 sec  <<< FAILURE!
+java.lang.AssertionError: TestCase PPR_100_189_Simple_Price_point_TC_05failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeNineTest.smoke05(PluSmokeNineTest.java:87)
+
+smoke15(com.kohls.app.pro.Smoke.PluSmokeNineteenTest)  Time elapsed: 61.998 sec  <<< FAILURE!
+java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeNineteenTest.smoke15(PluSmokeNineteenTest.java:81)
+
+smoke10(com.kohls.app.pro.Smoke.PluSmokeSevenTest)  Time elapsed: 33.678 sec  <<< FAILURE!
+java.lang.AssertionError: TestCase PPR_100_189_Simple_Percent_off_Pricing_strategy_screen_TC_10failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeSevenTest.smoke10(PluSmokeSevenTest.java:84)
+
+smoke14(com.kohls.app.pro.Smoke.PluSmokeSeventeenTest)  Time elapsed: 46.674 sec  <<< FAILURE!
+java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeSeventeenTest.smoke14(PluSmokeSeventeenTest.java:77)
+
+smoke07(com.kohls.app.pro.Smoke.PluSmokeSixTest)  Time elapsed: 89.72 sec  <<< FAILURE!
+java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeSixTest.smoke07(PluSmokeSixTest.java:81)
+
+smoke09(com.kohls.app.pro.Smoke.PluSmokeTenTest)  Time elapsed: 51.556 sec  <<< FAILURE!
+java.lang.AssertionError: TestCase PPR_100_189_Simple_Price_point_Template_screen_TC_09failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeTenTest.smoke09(PluSmokeTenTest.java:86)
+
+smoke20(com.kohls.app.pro.Smoke.PluSmokeThirteenTest)  Time elapsed: 39.433 sec  <<< FAILURE!
+java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeThirteenTest.smoke20(PluSmokeThirteenTest.java:80)
+
+smoke04(com.kohls.app.pro.Smoke.PluSmokeThreeTest)  Time elapsed: 51.094 sec  <<< FAILURE!
+java.lang.AssertionError: Ad Event is not popualted
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.PopulateAdEvent(AbstractTest.java:283)
+	at com.kohls.app.pro.Smoke.PluSmokeThreeTest.smoke04(PluSmokeThreeTest.java:77)
+
+smoke12(com.kohls.app.pro.Smoke.PluSmokeTwelveTest)  Time elapsed: 30.157 sec  <<< FAILURE!
+java.lang.AssertionError: Pricing Strategy Page is not navigated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.UpdatePriceDetailsPriceStrategyPage(AbstractTest.java:382)
+	at com.kohls.app.pro.Smoke.PluSmokeTwelveTest.smoke12(PluSmokeTwelveTest.java:75)
+
+smoke13(com.kohls.app.pro.Smoke.PluSmokeTwentyTest)  Time elapsed: 35.794 sec  <<< FAILURE!
+java.lang.AssertionError: TestCase Validate_price_in_strategy_screen_TC13failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeTwentyTest.smoke13(PluSmokeTwentyTest.java:84)
+
+PPR_76_92_Populate_Ad_Event_03(com.kohls.app.pro.Smoke.PluSmokeTwoTest)  Time elapsed: 46.406 sec  <<< FAILURE!
+java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeTwoTest.PPR_76_92_Populate_Ad_Event_03(PluSmokeTwoTest.java:80)
+

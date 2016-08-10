@@ -1,0 +1,3425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="902.531" tests="20" errors="0" skipped="0" failures="16">
+  <properties>
+    <property name="idea.version" value="14.1.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7532"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="surefire.groups" value="plusmoke"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/tkmap47/PLU/PLUTestNGAug4/PLU_Automation"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/s6/s9glp4fs17bg7kkf9d40wwpx4v55yf/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Volumes/IntelliJ IDEA 14 CE/IntelliJ IDEA 14 CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/tkmap47/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.5"/>
+    <property name="user.home" value="/Users/tkmap47"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="idea.launcher.bin.path" value="/Volumes/IntelliJ IDEA 14 CE/IntelliJ IDEA 14 CE.app/Contents/bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="tkmap47"/>
+    <property name="java.class.path" value="/Volumes/IntelliJ IDEA 14 CE/IntelliJ IDEA 14 CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.4.jar:/Volumes/IntelliJ IDEA 14 CE/IntelliJ IDEA 14 CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=14.1.3 clean test -Dsurefire.groups=plusmoke"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="java.ext.dirs" value="/Users/tkmap47/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Volumes/IntelliJ IDEA 14 CE/IntelliJ IDEA 14 CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="smoke06" classname="com.kohls.app.pro.Smoke.PluSmokeEightTest" time="45.266">
+    <failure message="TestCase PPR_100_189_Simple_Percent_off_TC_06failed" type="java.lang.AssertionError">java.lang.AssertionError: TestCase PPR_100_189_Simple_Percent_off_TC_06failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeEightTest.smoke06(PluSmokeEightTest.java:88)
+</failure>
+    <system-out>Configuring TestNG with: TestNG652Configurator
+./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Creating new file target/Reports/Regression/10-08-2016/PPR_100_189_Simple_Percent_off_TC_06/PPR_100_189_Simple_Percent_off_TC_06_10-08-2016-10-57-13.html
+Looking for testcase name:PPR_100_189_Simple_Percent_off_TC_06:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_AD_EVNT_DEPT_XREF_IDis:1865
+Connected
+DB Connected
+Results:
+DB Value for Column:AD_EVNT_IDis:1007
+Created Merchandising Group: [139|MC10|SC11]
+Screenshot Capture
+Promotion Names: [null, MAIN PROMOTION (10/10/2016 - 10/16/2016), UNADVERTISED (10/10/2016 - 10/16/2016)]
+Promotion Sub Heading Titles: [null, Injection Status, Last Injected Timestamp, Promo Item, Simple/Complex, Price Type Code, Price, Pre Correction Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Exist
+Error While Executing TestCase: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=53.0.2785.46)
+  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 39 milliseconds
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'KSMS1716', ip: '10.5.0.36', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 7bafb50ee25a51c1989513c1363dd6c7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\2\scoped_dir4620_5601}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=53.0.2785.46, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+Command duration or timeout: 4.21 seconds
+Build info: version: '2.32.0', revision: '6c40c187d01409a5dc3b7f8251859150c8af0bcb', time: '2013-04-09 10:39:28'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+Session ID: a66cb3c8-8b66-4e9c-a96e-e843f35fc281
+Driver info: com.kohls.app.ExtendedRemoteWebdriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\2\scoped_dir4620_5601}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=a66cb3c8-8b66-4e9c-a96e-e843f35fc281, version=53.0.2785.46, takesHeapSnapshot=true, databaseEnabled=false, cssSelectorsEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+</system-out>
+    <system-err>SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/tkmap47/.m2/repository/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/tkmap47/.m2/repository/ch/qos/logback/logback-classic/0.9.27/logback-classic-0.9.27.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeOneTest - Smoke_Test_Data
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - 
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager).
+log4j:WARN Please initialize the log4j system properly.
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeEightTest - TestCase PPR_100_189_Simple_Percent_off_TC_06 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Ad Event Screen
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - View Ad Event Button is displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Populate Ad Event Button in Menu
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Ad Event Entered Successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Apply Button Enabled
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Screen opened
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 10 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 11 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_AD_EVNT_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - AD_EVNT_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC10|SC11
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Pricing Details in Ad Event page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Price Entered Pop Up displayed
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Price Code, Price details in Pricing Strategy Screen and Verify Warning message
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Prices Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Warning Message is displaying 1. Row ID: 1. Promo pricing amount is set to below actual max unit cost for Pricing Level 139|MC10|SC11
+
+Do you want to Proceed?
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Details are not saved sucessfully
+</system-err>
+  </testcase>
+  <testcase name="smoke16" classname="com.kohls.app.pro.Smoke.PluSmokeEighteenTest" time="39.728">
+    <failure message="Ad Event page is not udpated" type="java.lang.AssertionError">java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeEighteenTest.smoke16(PluSmokeEighteenTest.java:82)
+</failure>
+    <system-out>Creating new file target/Reports/Regression/SummaryReport.html
+./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Creating new file target/Reports/Regression/10-08-2016/Validate_price_in_Submit_pricing_TC16/Validate_price_in_Submit_pricing_TC16_10-08-2016-10-57-13.html
+Looking for testcase name:Validate_price_in_Submit_pricing_TC16:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_AD_EVNT_DEPT_XREF_IDis:1865
+Connected
+DB Connected
+Results:
+DB Value for Column:AD_EVNT_IDis:1007
+Created Merchandising Group: [139|MC20|SC27]
+Screenshot Capture
+Promotion Names: [null, MAIN PROMOTION (10/10/2016 - 10/16/2016), UNADVERTISED (10/10/2016 - 10/16/2016)]
+Promotion Sub Heading Titles: [null, Injection Status, Last Injected Timestamp, Promo Item, Simple/Complex, Price Type Code, Price, Pre Correction Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Exist
+Error While Saving Ad Event Prices
+Screenshot Capture
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeEighteenTest - TestCase Validate_price_in_Submit_pricing_TC16 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Ad Event Screen
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - View Ad Event Button is displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Populate Ad Event Button in Menu
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Ad Event Entered Successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Apply Button Enabled
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Screen opened
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 20 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 27 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_AD_EVNT_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - AD_EVNT_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC20|SC27
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Pricing Details in Ad Event page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Promo Item Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Price Entered Pop Up displayed
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Perform Save Updated Details in Ad Event Page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Prices Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Warning Message is displaying 1. Row ID: 1. Promo pricing amount is set to below actual max unit cost for Pricing Level 139|MC20|SC27
+
+Do you want to Proceed?
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Details are not saved sucessfully
+</system-err>
+  </testcase>
+  <testcase name="smoke08" classname="com.kohls.app.pro.Smoke.PluSmokeElevenTest" time="30.353"/>
+  <testcase name="smoke17" classname="com.kohls.app.pro.Smoke.PluSmokeFifteenTest" time="23.352">
+    <failure message="Pricing Strategy Page is not navigated" type="java.lang.AssertionError">java.lang.AssertionError: Pricing Strategy Page is not navigated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.UpdatePriceDetailsPriceStrategyPage(AbstractTest.java:382)
+	at com.kohls.app.pro.Smoke.PluSmokeFifteenTest.smoke17(PluSmokeFifteenTest.java:78)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Looking for testcase name:Validate_price_in_Submit_pricing_TC16:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_TMPL_DEPT_XREF_IDis:2776
+Connected
+DB Connected
+Results:
+DB Value for Column:TMPL_NMis:Default Template
+Created Merchandising Group: [139|MC20|SC27]
+Screenshot Capture
+Promotion Names: [null, MAIN, MIDWEEK, WEEKEND, PARTIAL DAY, LPS, ROTATION / ESTABLISHING, WILD CARD, NO PROMO]
+Promotion Sub Heading Titles: [null, Simple/Complex, Price Type Code, Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+Screenshot Capture
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeFifteenTest - TestCase Validate_price_in_Submit_pricing_TC16 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 20 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 27 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_TMPL_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - TMPL_NM Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC20|SC27
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Price Code, Price details in Pricing Strategy Screen (BOGO values should be less than 40%)
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.reusable.Components - Values Not Updated
+</system-err>
+  </testcase>
+  <testcase name="smoke11" classname="com.kohls.app.pro.Smoke.PluSmokeFiveTest" time="30.889">
+    <failure message="Pricing Strategy Page is not navigated" type="java.lang.AssertionError">java.lang.AssertionError: Pricing Strategy Page is not navigated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.UpdatePriceDetailsPriceStrategyPage(AbstractTest.java:382)
+	at com.kohls.app.pro.Smoke.PluSmokeFiveTest.smoke11(PluSmokeFiveTest.java:78)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Creating new file target/Reports/Regression/10-08-2016/PPR_100_189_Complex_Bogo_Dollar_Pricing_Pricing_staretgy_screen_TC_11/PPR_100_189_Complex_Bogo_Dollar_Pricing_Pricing_staretgy_screen_TC_11_10-08-2016-10-57-13.html
+Looking for testcase name:PPR_100_189_Complex_Bogo_Dollar_Pricing_Pricing_staretgy_screen_TC_11:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:SKULISTis:71814
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPTis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_TMPL_DEPT_XREF_IDis:2777
+Connected
+DB Connected
+Results:
+DB Value for Column:TMPL_NMis:Default Template
+Created Merchandising Group: [139|MC40|SC43|W_Yes]
+Screenshot Capture
+Promotion Names: [null, MAIN, MIDWEEK, WEEKEND, PARTIAL DAY, LPS, ROTATION / ESTABLISHING, WILD CARD, NO PROMO]
+Promotion Sub Heading Titles: [null, Simple/Complex, Price Type Code, Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeFiveTest - TestCase PPR_100_189_Complex_Bogo_Dollar_Pricing_Pricing_staretgy_screen_TC_11 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 40 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 43 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Yes WebEx Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - All Item has been created sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validating RMS DB Details
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - SKULIST Verifiedin RMS DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verified in RMS DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_TMPL_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - TMPL_NM Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC40|SC43|W_Yes
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Price Code, Price details in Pricing Strategy Screen (BOGO values should be less than 40%)
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+[main] INFO com.kohls.app.reusable.Components - Values Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Not able to Save values
+[main] INFO com.kohls.app.reusable.Components - Updated Values are not Saved
+</system-err>
+  </testcase>
+  <testcase name="smoke01" classname="com.kohls.app.pro.Smoke.PluSmokeFourTest" time="19.698"/>
+  <testcase name="smoke18" classname="com.kohls.app.pro.Smoke.PluSmokeFourteenTest" time="45.411">
+    <failure message="Ad Event page is not udpated" type="java.lang.AssertionError">java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeFourteenTest.smoke18(PluSmokeFourteenTest.java:81)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Looking for testcase name:Validate_price_in_Submit_pricing_TC16:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_AD_EVNT_DEPT_XREF_IDis:1865
+Connected
+DB Connected
+Results:
+DB Value for Column:AD_EVNT_IDis:1007
+Created Merchandising Group: [139|MC20|SC27]
+Screenshot Capture
+Promotion Names: [null, MAIN PROMOTION (10/10/2016 - 10/16/2016), UNADVERTISED (10/10/2016 - 10/16/2016)]
+Promotion Sub Heading Titles: [null, Injection Status, Last Injected Timestamp, Promo Item, Simple/Complex, Price Type Code, Price, Pre Correction Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Exist
+Error While Saving Ad Event Prices
+Screenshot Capture
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeFourteenTest - TestCase Validate_price_in_Submit_pricing_TC16 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Ad Event Screen
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - View Ad Event Button is displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Populate Ad Event Button in Menu
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Ad Event Entered Successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Apply Button Enabled
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Screen opened
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 20 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 27 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_AD_EVNT_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - AD_EVNT_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC20|SC27
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Pricing Details in Ad Event page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Promo Item Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Price Entered Pop Up displayed
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Perform Save Updated Details in Ad Event Page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Prices Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Warning Message is displaying 1. Row ID: 1. Promo pricing amount is set to below actual max unit cost for Pricing Level 139|MC20|SC27
+
+Do you want to Proceed?
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Details are not saved sucessfully
+</system-err>
+  </testcase>
+  <testcase name="smoke05" classname="com.kohls.app.pro.Smoke.PluSmokeNineTest" time="72.499">
+    <failure message="TestCase PPR_100_189_Simple_Price_point_TC_05failed" type="java.lang.AssertionError">java.lang.AssertionError: TestCase PPR_100_189_Simple_Price_point_TC_05failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeNineTest.smoke05(PluSmokeNineTest.java:87)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Creating new file target/Reports/Regression/10-08-2016/PPR_100_189_Simple_Price_point_TC_05/PPR_100_189_Simple_Price_point_TC_05_10-08-2016-10-57-13.html
+Looking for testcase name:PPR_100_189_Simple_Price_point_TC_05:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:SKULISTis:71813
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPTis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_AD_EVNT_DEPT_XREF_IDis:1865
+Connected
+DB Connected
+Results:
+DB Value for Column:AD_EVNT_IDis:1007
+Created Merchandising Group: [139|MC40|SC43|B_ASICS]
+Screenshot Capture
+Promotion Names: [null, MAIN PROMOTION (10/10/2016 - 10/16/2016), UNADVERTISED (10/10/2016 - 10/16/2016)]
+Promotion Sub Heading Titles: [null, Injection Status, Last Injected Timestamp, Promo Item, Simple/Complex, Price Type Code, Price, Pre Correction Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+Pricing Left Heading Names: {Group Code=10, =1, Brand=9, Dept=5, On Order=22, Price Overlap=27, Vendor Style Desc=15, Max Cost=24, Max Retail=12, Itemlist ID=4, MCL=6, Min Cost=23, Row ID=2, Kohl's Style ID=25, Comment 5=32, Direct Ship=18, Simple/Complex=26, Sku Status=13, Comment 1=28, Comment 2=29, Comment 3=30, Min Retail=11, SCL=7, Sku=16, Comment 4=31, Last Receipt Date=20, Vendor=8, Vendor Style=14, Webex=17, On Hand=21, Price Comparative Type=19, Pricing Level=3}
+Promotion Names: [null, MAIN PROMOTION (10/10/2016 - 10/16/2016), UNADVERTISED (10/10/2016 - 10/16/2016)]
+Promotion Sub Heading Titles: [null, Injection Status, Last Injected Timestamp, Promo Item, Simple/Complex, Price Type Code, Price, Pre Correction Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+Screenshot Capture
+Screenshot Capture
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Exist
+Error While Executing TestCase: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=53.0.2785.46)
+  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'KSMS1716', ip: '10.5.0.36', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: c7da5710c076ae350a107cba73453019
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\2\scoped_dir4232_31496}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=53.0.2785.46, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+Command duration or timeout: 192 milliseconds
+Build info: version: '2.32.0', revision: '6c40c187d01409a5dc3b7f8251859150c8af0bcb', time: '2013-04-09 10:39:28'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+Session ID: ce977e7f-3c73-410c-aefd-3eb81e53d3b5
+Driver info: com.kohls.app.ExtendedRemoteWebdriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\2\scoped_dir4232_31496}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=ce977e7f-3c73-410c-aefd-3eb81e53d3b5, version=53.0.2785.46, takesHeapSnapshot=true, databaseEnabled=false, cssSelectorsEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeNineTest - TestCase PPR_100_189_Simple_Price_point_TC_05 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Ad Event Screen
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - View Ad Event Button is displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Populate Ad Event Button in Menu
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Ad Event Entered Successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Apply Button Enabled
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Screen opened
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 40 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 43 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - ASICS Brand Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated and some deatails are not updated in table for Pricing Level 139|MC40|SC43|B_ASICS
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - All Item has been created sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validating RMS DB Details
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - SKULIST Verifiedin RMS DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verified in RMS DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_AD_EVNT_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - AD_EVNT_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC40|SC43|B_ASICS
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Pricing Details in Ad Event page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Step 7: Enter value less than Min retail price in price field
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Price Entered Pop Up displayed
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Price Code, Price details in Pricing Strategy Screen and Verify Warning message
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Prices Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Warning Message is displaying 1. Row ID: 1. Promo pricing amount is set to below actual max unit cost for Pricing Level 139|MC40|SC43|B_ASICS
+
+Do you want to Proceed?
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Details are not saved sucessfully
+</system-err>
+  </testcase>
+  <testcase name="smoke15" classname="com.kohls.app.pro.Smoke.PluSmokeNineteenTest" time="61.998">
+    <failure message="Ad Event page is not udpated" type="java.lang.AssertionError">java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeNineteenTest.smoke15(PluSmokeNineteenTest.java:81)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Looking for testcase name:Validate_price_in_Submit_pricing_TC16:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_AD_EVNT_DEPT_XREF_IDis:1865
+Connected
+DB Connected
+Results:
+DB Value for Column:AD_EVNT_IDis:1007
+Created Merchandising Group: [139|MC20|SC27]
+Screenshot Capture
+Promotion Names: [null, MAIN PROMOTION (10/10/2016 - 10/16/2016), UNADVERTISED (10/10/2016 - 10/16/2016)]
+Promotion Sub Heading Titles: [null, Injection Status, Last Injected Timestamp, Promo Item, Simple/Complex, Price Type Code, Price, Pre Correction Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Exist
+Error While Saving Ad Event Prices
+Screenshot Capture
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeNineteenTest - TestCase Validate_price_in_Submit_pricing_TC16 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Ad Event Screen
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - View Ad Event Button is displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Populate Ad Event Button in Menu
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Ad Event Entered Successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Apply Button Enabled
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Screen opened
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 20 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 27 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_AD_EVNT_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - AD_EVNT_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC20|SC27
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Pricing Details in Ad Event page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Promo Item Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Price Entered Pop Up displayed
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Perform Save Updated Details in Ad Event Page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Prices Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Warning Message is displaying 1. Row ID: 1. Promo pricing amount is set to below actual max unit cost for Pricing Level 139|MC20|SC27
+
+Do you want to Proceed?
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Details are not saved sucessfully
+</system-err>
+  </testcase>
+  <testcase name="PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02" classname="com.kohls.app.pro.Smoke.PluSmokeOneTest" time="28.074"/>
+  <testcase name="smoke10" classname="com.kohls.app.pro.Smoke.PluSmokeSevenTest" time="33.678">
+    <failure message="TestCase PPR_100_189_Simple_Percent_off_Pricing_strategy_screen_TC_10failed" type="java.lang.AssertionError">java.lang.AssertionError: TestCase PPR_100_189_Simple_Percent_off_Pricing_strategy_screen_TC_10failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeSevenTest.smoke10(PluSmokeSevenTest.java:84)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Creating new file target/Reports/Regression/10-08-2016/PPR_100_189_Simple_Percent_off_Pricing_strategy_screen_TC_10/PPR_100_189_Simple_Percent_off_Pricing_strategy_screen_TC_10_10-08-2016-10-57-13.html
+Looking for testcase name:PPR_100_189_Simple_Percent_off_Pricing_strategy_screen_TC_10:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_TMPL_DEPT_XREF_IDis:2782
+Connected
+DB Connected
+Results:
+DB Value for Column:TMPL_NMis:Default Template
+Created Merchandising Group: [139|MC10|SC11]
+Screenshot Capture
+Promotion Names: [null, MAIN, MIDWEEK, WEEKEND, PARTIAL DAY, LPS, ROTATION / ESTABLISHING, WILD CARD, NO PROMO]
+Promotion Sub Heading Titles: [null, Simple/Complex, Price Type Code, Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Error while entering Promotion Details in Pricing Strategy screen org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=53.0.2785.46)
+  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'KSMS1716', ip: '10.5.0.36', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 0899de042b6d09bbc02bdf367b456261
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\2\scoped_dir1768_857}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=53.0.2785.46, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+Command duration or timeout: 181 milliseconds
+Build info: version: '2.32.0', revision: '6c40c187d01409a5dc3b7f8251859150c8af0bcb', time: '2013-04-09 10:39:28'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+Session ID: f27779f2-a583-45ee-830d-437bc54ce58d
+Driver info: com.kohls.app.ExtendedRemoteWebdriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\2\scoped_dir1768_857}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=f27779f2-a583-45ee-830d-437bc54ce58d, version=53.0.2785.46, takesHeapSnapshot=true, databaseEnabled=false, cssSelectorsEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+Screenshot Capture
+Error While Executing TestCase: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeSevenTest - TestCase PPR_100_189_Simple_Percent_off_Pricing_strategy_screen_TC_10 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 10 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 11 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_TMPL_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - TMPL_NM Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC10|SC11
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Price Code, Price details in Pricing Strategy Screen and Verify Warning message
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Price Entered Pop Up displayed
+[main] INFO com.kohls.app.reusable.Components - Values Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Warning Message Displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Details not saved sucessfully
+</system-err>
+  </testcase>
+  <testcase name="smoke14" classname="com.kohls.app.pro.Smoke.PluSmokeSeventeenTest" time="46.674">
+    <failure message="Ad Event page is not udpated" type="java.lang.AssertionError">java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeSeventeenTest.smoke14(PluSmokeSeventeenTest.java:77)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Looking for testcase name:Validate_price_in_Submit_pricing_TC16:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_AD_EVNT_DEPT_XREF_IDis:1865
+Connected
+DB Connected
+Results:
+DB Value for Column:AD_EVNT_IDis:1007
+Created Merchandising Group: [139|MC20|SC27]
+Screenshot Capture
+Promotion Names: [null, MAIN PROMOTION (10/10/2016 - 10/16/2016), UNADVERTISED (10/10/2016 - 10/16/2016)]
+Promotion Sub Heading Titles: [null, Injection Status, Last Injected Timestamp, Promo Item, Simple/Complex, Price Type Code, Price, Pre Correction Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Exist
+Error While Saving Ad Event Prices
+Screenshot Capture
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeSeventeenTest - TestCase Validate_price_in_Submit_pricing_TC16 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Ad Event Screen
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - View Ad Event Button is displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Populate Ad Event Button in Menu
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Ad Event Entered Successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Apply Button Enabled
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Screen opened
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 20 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 27 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_AD_EVNT_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - AD_EVNT_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC20|SC27
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Pricing Details in Ad Event page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Promo Item Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Price Entered Pop Up displayed
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Perform Save Updated Details in Ad Event Page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Prices Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Warning Message is displaying 1. Row ID: 1. Promo pricing amount is set to below actual max unit cost for Pricing Level 139|MC20|SC27
+
+Do you want to Proceed?
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Details are not saved sucessfully
+</system-err>
+  </testcase>
+  <testcase name="smoke07" classname="com.kohls.app.pro.Smoke.PluSmokeSixTest" time="89.72">
+    <failure message="Ad Event page is not udpated" type="java.lang.AssertionError">java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeSixTest.smoke07(PluSmokeSixTest.java:81)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Creating new file target/Reports/Regression/10-08-2016/PPR_100_189_Complex_Bogo_Dollar_Pricing_TC_07/PPR_100_189_Complex_Bogo_Dollar_Pricing_TC_07_10-08-2016-10-57-13.html
+Looking for testcase name:PPR_100_189_Complex_Bogo_Dollar_Pricing_TC_07:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:SKULISTis:71814
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPTis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_AD_EVNT_DEPT_XREF_IDis:1865
+Connected
+DB Connected
+Results:
+DB Value for Column:AD_EVNT_IDis:1007
+Created Merchandising Group: [139|MC40|SC43|W_Yes]
+Screenshot Capture
+Promotion Names: [null, MAIN PROMOTION (10/10/2016 - 10/16/2016), UNADVERTISED (10/10/2016 - 10/16/2016)]
+Promotion Sub Heading Titles: [null, Injection Status, Last Injected Timestamp, Promo Item, Simple/Complex, Price Type Code, Price, Pre Correction Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Exist
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Not Displayed in Screen. Checking Again...
+Error While Saving Ad Event Prices
+Screenshot Capture
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeSixTest - TestCase PPR_100_189_Complex_Bogo_Dollar_Pricing_TC_07 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Ad Event Screen
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - View Ad Event Button is displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Populate Ad Event Button in Menu
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Ad Event Entered Successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Apply Button Enabled
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Screen opened
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 40 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 43 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Yes WebEx Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - All Item has been created sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validating RMS DB Details
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - SKULIST Verifiedin RMS DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verified in RMS DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_AD_EVNT_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - AD_EVNT_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC40|SC43|W_Yes
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Pricing Details in Ad Event page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Perform Save Updated Details in Ad Event Page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Prices Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Details are not saved sucessfully
+</system-err>
+  </testcase>
+  <testcase name="smoke19" classname="com.kohls.app.pro.Smoke.PluSmokeSixteenTest" time="80.751"/>
+  <testcase name="smoke09" classname="com.kohls.app.pro.Smoke.PluSmokeTenTest" time="51.556">
+    <failure message="TestCase PPR_100_189_Simple_Price_point_Template_screen_TC_09failed" type="java.lang.AssertionError">java.lang.AssertionError: TestCase PPR_100_189_Simple_Price_point_Template_screen_TC_09failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeTenTest.smoke09(PluSmokeTenTest.java:86)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Creating new file target/Reports/Regression/10-08-2016/PPR_100_189_Simple_Price_point_Template_screen_TC_09/PPR_100_189_Simple_Price_point_Template_screen_TC_09_10-08-2016-10-57-13.html
+Looking for testcase name:PPR_100_189_Simple_Price_point_Template_screen_TC_09:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:SKULISTis:71813
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPTis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_TMPL_DEPT_XREF_IDis:2786
+Connected
+DB Connected
+Results:
+DB Value for Column:TMPL_NMis:Default Template
+Created Merchandising Group: [139|MC40|SC43|B_ASICS]
+Screenshot Capture
+Promotion Names: [null, MAIN, MIDWEEK, WEEKEND, PARTIAL DAY, LPS, ROTATION / ESTABLISHING, WILD CARD, NO PROMO]
+Promotion Sub Heading Titles: [null, Simple/Complex, Price Type Code, Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+Pricing Left Heading Names: {Group Code=10, =1, Brand=9, Dept=5, On Order=22, Price Overlap=27, Vendor Style Desc=15, Max Cost=24, Max Retail=12, Itemlist ID=4, MCL=6, Min Cost=23, Row ID=2, Kohl's Style ID=25, Comment 5=32, Direct Ship=18, Simple/Complex=26, Sku Status=13, Comment 1=28, Comment 2=29, Comment 3=30, Min Retail=11, SCL=7, Sku=16, Comment 4=31, Last Receipt Date=20, Vendor=8, Vendor Style=14, Webex=17, On Hand=21, Price Comparative Type=19, Pricing Level=3}
+Promotion Names: [null, MAIN, MIDWEEK, WEEKEND, PARTIAL DAY, LPS, ROTATION / ESTABLISHING, WILD CARD, NO PROMO]
+Promotion Sub Heading Titles: [null, Simple/Complex, Price Type Code, Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+Screenshot Capture
+Error While Executing TestCase: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=53.0.2785.46)
+  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'KSMS1716', ip: '10.5.0.36', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 0bafefc3384163493ab50cab1f79b8c5
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\2\scoped_dir6024_29678}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=53.0.2785.46, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+Command duration or timeout: 177 milliseconds
+Build info: version: '2.32.0', revision: '6c40c187d01409a5dc3b7f8251859150c8af0bcb', time: '2013-04-09 10:39:28'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+Session ID: f720b098-6546-430e-a2ab-efa5fa506e14
+Driver info: com.kohls.app.ExtendedRemoteWebdriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\2\scoped_dir6024_29678}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=f720b098-6546-430e-a2ab-efa5fa506e14, version=53.0.2785.46, takesHeapSnapshot=true, databaseEnabled=false, cssSelectorsEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeTenTest - TestCase PPR_100_189_Simple_Price_point_Template_screen_TC_09 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 40 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 43 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - ASICS Brand Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - All Item has been created sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validating RMS DB Details
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - SKULIST Verifiedin RMS DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verified in RMS DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_TMPL_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - TMPL_NM Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC40|SC43|B_ASICS
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Price Code, Price details in Pricing Strategy Screen (BOGO values should be less than 40%)
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Step 7: Enter value less than Min retail price in price field
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Price Entered Pop Up displayed
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Step 8-9: Click on Save and Validate Warning Message
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Warning Message Displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Details not saved sucessfully
+</system-err>
+  </testcase>
+  <testcase name="smoke20" classname="com.kohls.app.pro.Smoke.PluSmokeThirteenTest" time="39.433">
+    <failure message="Ad Event page is not udpated" type="java.lang.AssertionError">java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeThirteenTest.smoke20(PluSmokeThirteenTest.java:80)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Looking for testcase name:Validate_price_in_Submit_pricing_TC16:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_AD_EVNT_DEPT_XREF_IDis:1865
+Connected
+DB Connected
+Results:
+DB Value for Column:AD_EVNT_IDis:1007
+Created Merchandising Group: [139|MC20|SC27]
+Screenshot Capture
+Promotion Names: [null, MAIN PROMOTION (10/10/2016 - 10/16/2016), UNADVERTISED (10/10/2016 - 10/16/2016)]
+Promotion Sub Heading Titles: [null, Injection Status, Last Injected Timestamp, Promo Item, Simple/Complex, Price Type Code, Price, Pre Correction Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Exist
+Error While Saving Ad Event Prices
+Screenshot Capture
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeThirteenTest - TestCase Validate_price_in_Submit_pricing_TC16 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Ad Event Screen
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - View Ad Event Button is displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Populate Ad Event Button in Menu
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Ad Event Entered Successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Apply Button Enabled
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Screen opened
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 20 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 27 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_AD_EVNT_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - AD_EVNT_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC20|SC27
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Pricing Details in Ad Event page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Promo Item Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Price Entered Pop Up displayed
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Perform Save Updated Details in Ad Event Page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Prices Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Warning Message is displaying 1. Row ID: 1. Promo pricing amount is set to below actual max unit cost for Pricing Level 139|MC20|SC27
+
+Do you want to Proceed?
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Details are not saved sucessfully
+</system-err>
+  </testcase>
+  <testcase name="smoke04" classname="com.kohls.app.pro.Smoke.PluSmokeThreeTest" time="51.094">
+    <failure message="Ad Event is not popualted" type="java.lang.AssertionError">java.lang.AssertionError: Ad Event is not popualted
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.PopulateAdEvent(AbstractTest.java:283)
+	at com.kohls.app.pro.Smoke.PluSmokeThreeTest.smoke04(PluSmokeThreeTest.java:77)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Creating new file target/Reports/Regression/10-08-2016/PPR_76_92_View_Ad_Event_04/PPR_76_92_View_Ad_Event_04_10-08-2016-10-57-13.html
+Looking for testcase name:PPR_76_92_View_Ad_Event_04:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:SKULISTis:71809
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPTis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_TMPL_DEPT_XREF_IDis:2788
+Connected
+DB Connected
+Results:
+DB Value for Column:TMPL_NMis:Default Template
+Created Merchandising Group: [139|MC40|SC43|V_ASICS TIGER CORP]
+Screenshot Capture
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Error while Navigating to Populate Ad Event Screen org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[contains(@id,'') and (@aria-hidden='false')]/li[text()='Non Outlet Oct 2016 (10/10/2016 - 10/16/2016)']"}
+  (Session info: chrome=53.0.2785.46)
+  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'KSMS1716', ip: '10.5.0.36', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: e38e08292081b85b4f5d73103fc8e15d
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\2\scoped_dir5708_28930}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=53.0.2785.46, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+Command duration or timeout: 30.28 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.32.0', revision: '6c40c187d01409a5dc3b7f8251859150c8af0bcb', time: '2013-04-09 10:39:28'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+Session ID: 72a83b56-8168-40da-ab39-bc66c9cd97a2
+Driver info: com.kohls.app.ExtendedRemoteWebdriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\2\scoped_dir5708_28930}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=72a83b56-8168-40da-ab39-bc66c9cd97a2, version=53.0.2785.46, takesHeapSnapshot=true, databaseEnabled=false, cssSelectorsEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+Screenshot Capture
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeThreeTest - TestCase PPR_76_92_View_Ad_Event_04 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 40 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 43 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - ASICS TIGER CORP Vendor Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - All Item has been created sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validating RMS DB Details
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - SKULIST Verifiedin RMS DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verified in RMS DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_TMPL_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - TMPL_NM Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC40|SC43|V_ASICS TIGER CORP
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Populate Ad Event
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Button is displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Populate Ad Event Button in Menu
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Pop Up is displaying
+</system-err>
+  </testcase>
+  <testcase name="smoke12" classname="com.kohls.app.pro.Smoke.PluSmokeTwelveTest" time="30.157">
+    <failure message="Pricing Strategy Page is not navigated" type="java.lang.AssertionError">java.lang.AssertionError: Pricing Strategy Page is not navigated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.UpdatePriceDetailsPriceStrategyPage(AbstractTest.java:382)
+	at com.kohls.app.pro.Smoke.PluSmokeTwelveTest.smoke12(PluSmokeTwelveTest.java:75)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Creating new file target/Reports/Regression/10-08-2016/PPR_101_187_Complex_Bogo_percent_TC_12/PPR_101_187_Complex_Bogo_percent_TC_12_10-08-2016-10-57-13.html
+Looking for testcase name:PPR_101_187_Complex_Bogo_percent_TC_12:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_TMPL_DEPT_XREF_IDis:2789
+Connected
+DB Connected
+Results:
+DB Value for Column:TMPL_NMis:Default Template
+Created Merchandising Group: [139|MC10]
+Screenshot Capture
+Promotion Names: [null, MAIN, MIDWEEK, WEEKEND, PARTIAL DAY, LPS, ROTATION / ESTABLISHING, WILD CARD, NO PROMO]
+Promotion Sub Heading Titles: [null, Simple/Complex, Price Type Code, Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeTwelveTest - TestCase PPR_101_187_Complex_Bogo_percent_TC_12 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 10 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_TMPL_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - TMPL_NM Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC10
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Price Code, Price details in Pricing Strategy Screen (BOGO values should be less than 40%)
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Price Entered Pop Up displayed
+[main] INFO com.kohls.app.reusable.Components - Values Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Not able to Save values
+[main] INFO com.kohls.app.reusable.Components - Updated Values are not Saved
+</system-err>
+  </testcase>
+  <testcase name="smoke13" classname="com.kohls.app.pro.Smoke.PluSmokeTwentyTest" time="35.794">
+    <failure message="TestCase Validate_price_in_strategy_screen_TC13failed" type="java.lang.AssertionError">java.lang.AssertionError: TestCase Validate_price_in_strategy_screen_TC13failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeTwentyTest.smoke13(PluSmokeTwentyTest.java:84)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Creating new file target/Reports/Regression/10-08-2016/Validate_price_in_strategy_screen_TC13/Validate_price_in_strategy_screen_TC13_10-08-2016-10-57-12.html
+Looking for testcase name:Validate_price_in_strategy_screen_TC13:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:SKULISTis:71815
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPTis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_TMPL_DEPT_XREF_IDis:2790
+Connected
+DB Connected
+Results:
+DB Value for Column:TMPL_NMis:Default Template
+Created Merchandising Group: [139|MC40|SC41|S_Active]
+Screenshot Capture
+Promotion Names: [null, MAIN, MIDWEEK, WEEKEND, PARTIAL DAY, LPS, ROTATION / ESTABLISHING, WILD CARD, NO PROMO]
+Promotion Sub Heading Titles: [null, Simple/Complex, Price Type Code, Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Error while entering Promotion Details in Pricing Strategy screen org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=53.0.2785.46)
+  (Driver info: chromedriver=2.19.346078 (6f1f0cde889532d48ce8242342d0b84f94b114a1),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'KSMS1716', ip: '10.5.0.36', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 4027eb4d3974e631e823458f99f9e1ac
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\2\scoped_dir6100_23702}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=53.0.2785.46, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+Command duration or timeout: 159 milliseconds
+Build info: version: '2.32.0', revision: '6c40c187d01409a5dc3b7f8251859150c8af0bcb', time: '2013-04-09 10:39:28'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_79'
+Session ID: 5fd3c0cf-d0b6-4257-87ae-758f962f941d
+Driver info: com.kohls.app.ExtendedRemoteWebdriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Windows\TEMP\2\scoped_dir6100_23702}, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=5fd3c0cf-d0b6-4257-87ae-758f962f941d, version=53.0.2785.46, takesHeapSnapshot=true, databaseEnabled=false, cssSelectorsEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+Screenshot Capture
+Error while Validating Price in Pricing Strategy page
+Screenshot Capture
+Error While Executing TestCase: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeTwentyTest - TestCase Validate_price_in_strategy_screen_TC13 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 40 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 41 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Active Status Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - All Item has been created sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validating RMS DB Details
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - SKULIST Verifiedin RMS DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verified in RMS DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_TMPL_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - TMPL_NM Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC40|SC41|S_Active
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Price Code, Price details in Pricing Strategy Screen (BOGO values should be less than 40%)
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Price Entered Pop Up displayed
+[main] INFO com.kohls.app.reusable.Components - Values Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Warning Message Displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Details not saved sucessfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Step 7: Validate Pricing
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validate Pricing Button is displaying in Pricing Strategy page
+</system-err>
+  </testcase>
+  <testcase name="PPR_76_92_Populate_Ad_Event_03" classname="com.kohls.app.pro.Smoke.PluSmokeTwoTest" time="46.406">
+    <failure message="Ad Event page is not udpated" type="java.lang.AssertionError">java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeTwoTest.PPR_76_92_Populate_Ad_Event_03(PluSmokeTwoTest.java:80)
+</failure>
+    <system-out>./target/ExtentReport/PLUSmokeTest.html
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+Connected
+DB Connected
+Results:
+DB column name is not given
+{=null}
+https://intra.kohls.com/ismenu-qa/enterpriseLogin
+https://intra.kohls.com/ismenu-qa/enterpriseLoginSridharJayapaul
+Screenshot Capture
+Creating new file target/Reports/Regression/10-08-2016/PPR_76_92_Populate_Ad_Event_03/PPR_76_92_Populate_Ad_Event_03_10-08-2016-10-57-13.html
+Looking for testcase name:PPR_76_92_Populate_Ad_Event_03:end
+Searching is completed
+By.xpath: //div[@id='lblSelectedDept' and contains(text(),'Depts : ')]Element Exist
+Screenshot Capture
+Screenshot Capture
+By.xpath: //div[contains(@id,'header-title-text') and text()='Add Merchandise Group']Element Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Connected
+DB Connected
+Results:
+DB Value for Column:DEPT_NBRis:139
+Connected
+DB Connected
+Results:
+DB Value for Column:PLU_TMPL_DEPT_XREF_IDis:2791
+Connected
+DB Connected
+Results:
+DB Value for Column:TMPL_NMis:Default Template
+Created Merchandising Group: [139|MC40|SC43]
+Screenshot Capture
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+Promotion Names: [null, MAIN PROMOTION (10/10/2016 - 10/16/2016), UNADVERTISED (10/10/2016 - 10/16/2016)]
+Promotion Sub Heading Titles: [null, Injection Status, Last Injected Timestamp, Promo Item, Simple/Complex, Price Type Code, Price, Pre Correction Price, All Store % Off, Quantity, Round Down Amount, Versioned Pricing, Versioned, Price Overlap, Comments]
+By.xpath: //ul[contains(@id,'') and (@aria-hidden='false')]/liElement Exist
+Screenshot Capture
+By.xpath: //div[contains(@id,'messagebox')]//div[contains (@id,'header-title-textEl')]Element Exist
+Error While Saving Ad Event Prices
+Screenshot Capture
+</system-out>
+    <system-err>[main] INFO com.kohls.app.SAF - Cleanly stopped WebDriver
+[main] INFO com.kohls.app.SAF - Executing in the remote hub http://merch-jenkins.kohls.com:4444/wd/huband Browser is googlechrome
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Department Details Deleted Successfully
+[main] INFO com.kohls.app.pro.Smoke.PluSmokeTwoTest - TestCase PPR_76_92_Populate_Ad_Event_03 Started
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Login to Price Lookup
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Kohls Online Page successfully launched
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - PLU UI Application launched successfully
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Select Dept from Dept List
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departement Selected sucessfully
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - 139 Departments Selected and Displaying Label successfully
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Navigate to Pricing Strategy Screen
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Pricing Strategy Button is Displayed
+[main] INFO com.kohls.app.pro.pagefactory.LoginPage - Navigated to Pricing Strategy screen
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Create Merchandising Group using Given Items
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicked and Add Merchandising Pop Up opened
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 139 Departement Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 40 Major Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - 43 Sub Class Entered successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - New Merchandise Group is Added
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Department Number Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - PLU_TMPL_DEPT_XREF_ID Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - TMPL_NM Verifiedin DB.
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Validated DB for Pricing Level 139|MC40|SC43
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Populate Ad Event
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Button is displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Populate Ad Event Button in Menu
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Pop Up is displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Ad Event Entered Successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Main promotion Entered Successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - UnAdvertised Entered Successfully
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Apply Button Enabled
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - View Button is displaying
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Screen opened
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Update Pricing Details in Ad Event page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Pricing Type Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Promo Item Code Entered
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Price Entered Pop Up displayed
+[main] INFO com.kohls.app.pro.Smoke.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 - Perform Save Updated Details in Ad Event Page
+Warning:  Property storage name for 5 is empty - setting to Root Entry
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Clicking Save Prices Button
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Warning Message is displaying 1. Row ID: 1. Promo pricing amount is set to below actual max unit cost for Pricing Level 139|MC40|SC43
+
+Do you want to Proceed?
+[main] INFO com.kohls.app.pro.pagefactory.PricingStrategy - Populate Ad Event Details are not saved sucessfully
+</system-err>
+  </testcase>
+</testsuite>

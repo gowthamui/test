@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="16" total="20" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="1047768" started-at="2016-08-10T15:57:13Z" finished-at="2016-08-10T16:14:41Z">
+    <groups>
+      <group name="plusmoke">
+        <method signature="PluSmokeEightTest.smoke06()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeEightTest@5c6c2df3]" name="smoke06" class="com.kohls.app.pro.Smoke.PluSmokeEightTest"/>
+        <method signature="PluSmokeEighteenTest.smoke16()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeEighteenTest@298a84ed]" name="smoke16" class="com.kohls.app.pro.Smoke.PluSmokeEighteenTest"/>
+        <method signature="PluSmokeElevenTest.smoke08()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeElevenTest@45f0690a]" name="smoke08" class="com.kohls.app.pro.Smoke.PluSmokeElevenTest"/>
+        <method signature="PluSmokeFifteenTest.smoke17()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFifteenTest@62bb4719]" name="smoke17" class="com.kohls.app.pro.Smoke.PluSmokeFifteenTest"/>
+        <method signature="PluSmokeFiveTest.smoke11()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFiveTest@16045886]" name="smoke11" class="com.kohls.app.pro.Smoke.PluSmokeFiveTest"/>
+        <method signature="PluSmokeFourTest.smoke01()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFourTest@6c4c3ffd]" name="smoke01" class="com.kohls.app.pro.Smoke.PluSmokeFourTest"/>
+        <method signature="PluSmokeFourteenTest.smoke18()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFourteenTest@2d9c1743]" name="smoke18" class="com.kohls.app.pro.Smoke.PluSmokeFourteenTest"/>
+        <method signature="PluSmokeNineTest.smoke05()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeNineTest@4db3ea55]" name="smoke05" class="com.kohls.app.pro.Smoke.PluSmokeNineTest"/>
+        <method signature="PluSmokeNineteenTest.smoke15()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeNineteenTest@1fd3297]" name="smoke15" class="com.kohls.app.pro.Smoke.PluSmokeNineteenTest"/>
+        <method signature="PluSmokeOneTest.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeOneTest@7538ecf2]" name="PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02" class="com.kohls.app.pro.Smoke.PluSmokeOneTest"/>
+        <method signature="PluSmokeSevenTest.smoke10()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSevenTest@5edd9a4d]" name="smoke10" class="com.kohls.app.pro.Smoke.PluSmokeSevenTest"/>
+        <method signature="PluSmokeSeventeenTest.smoke14()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSeventeenTest@47585f2e]" name="smoke14" class="com.kohls.app.pro.Smoke.PluSmokeSeventeenTest"/>
+        <method signature="PluSmokeSixTest.smoke07()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSixTest@66838fd6]" name="smoke07" class="com.kohls.app.pro.Smoke.PluSmokeSixTest"/>
+        <method signature="PluSmokeSixteenTest.smoke19()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSixteenTest@6e42593b]" name="smoke19" class="com.kohls.app.pro.Smoke.PluSmokeSixteenTest"/>
+        <method signature="PluSmokeTenTest.smoke09()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTenTest@2d95ebec]" name="smoke09" class="com.kohls.app.pro.Smoke.PluSmokeTenTest"/>
+        <method signature="PluSmokeThirteenTest.smoke20()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeThirteenTest@423cdbec]" name="smoke20" class="com.kohls.app.pro.Smoke.PluSmokeThirteenTest"/>
+        <method signature="PluSmokeThreeTest.smoke04()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeThreeTest@2a9d1058]" name="smoke04" class="com.kohls.app.pro.Smoke.PluSmokeThreeTest"/>
+        <method signature="PluSmokeTwelveTest.smoke12()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwelveTest@7cbae009]" name="smoke12" class="com.kohls.app.pro.Smoke.PluSmokeTwelveTest"/>
+        <method signature="PluSmokeTwentyTest.smoke13()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwentyTest@25286ff8]" name="smoke13" class="com.kohls.app.pro.Smoke.PluSmokeTwentyTest"/>
+        <method signature="PluSmokeTwoTest.PPR_76_92_Populate_Ad_Event_03()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwoTest@26bd65e3]" name="PPR_76_92_Populate_Ad_Event_03" class="com.kohls.app.pro.Smoke.PluSmokeTwoTest"/>
+      </group> <!-- plusmoke -->
+      <group name="regression">
+        <method signature="PluSmokeEightTest.smoke06()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeEightTest@5c6c2df3]" name="smoke06" class="com.kohls.app.pro.Smoke.PluSmokeEightTest"/>
+        <method signature="PluSmokeEighteenTest.smoke16()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeEighteenTest@298a84ed]" name="smoke16" class="com.kohls.app.pro.Smoke.PluSmokeEighteenTest"/>
+        <method signature="PluSmokeElevenTest.smoke08()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeElevenTest@45f0690a]" name="smoke08" class="com.kohls.app.pro.Smoke.PluSmokeElevenTest"/>
+        <method signature="PluSmokeFifteenTest.smoke17()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFifteenTest@62bb4719]" name="smoke17" class="com.kohls.app.pro.Smoke.PluSmokeFifteenTest"/>
+        <method signature="PluSmokeFiveTest.smoke11()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFiveTest@16045886]" name="smoke11" class="com.kohls.app.pro.Smoke.PluSmokeFiveTest"/>
+        <method signature="PluSmokeFourTest.smoke01()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFourTest@6c4c3ffd]" name="smoke01" class="com.kohls.app.pro.Smoke.PluSmokeFourTest"/>
+        <method signature="PluSmokeFourteenTest.smoke18()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFourteenTest@2d9c1743]" name="smoke18" class="com.kohls.app.pro.Smoke.PluSmokeFourteenTest"/>
+        <method signature="PluSmokeNineTest.smoke05()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeNineTest@4db3ea55]" name="smoke05" class="com.kohls.app.pro.Smoke.PluSmokeNineTest"/>
+        <method signature="PluSmokeNineteenTest.smoke15()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeNineteenTest@1fd3297]" name="smoke15" class="com.kohls.app.pro.Smoke.PluSmokeNineteenTest"/>
+        <method signature="PluSmokeOneTest.PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeOneTest@7538ecf2]" name="PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02" class="com.kohls.app.pro.Smoke.PluSmokeOneTest"/>
+        <method signature="PluSmokeSevenTest.smoke10()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSevenTest@5edd9a4d]" name="smoke10" class="com.kohls.app.pro.Smoke.PluSmokeSevenTest"/>
+        <method signature="PluSmokeSeventeenTest.smoke14()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSeventeenTest@47585f2e]" name="smoke14" class="com.kohls.app.pro.Smoke.PluSmokeSeventeenTest"/>
+        <method signature="PluSmokeSixTest.smoke07()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSixTest@66838fd6]" name="smoke07" class="com.kohls.app.pro.Smoke.PluSmokeSixTest"/>
+        <method signature="PluSmokeSixteenTest.smoke19()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSixteenTest@6e42593b]" name="smoke19" class="com.kohls.app.pro.Smoke.PluSmokeSixteenTest"/>
+        <method signature="PluSmokeTenTest.smoke09()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTenTest@2d95ebec]" name="smoke09" class="com.kohls.app.pro.Smoke.PluSmokeTenTest"/>
+        <method signature="PluSmokeThirteenTest.smoke20()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeThirteenTest@423cdbec]" name="smoke20" class="com.kohls.app.pro.Smoke.PluSmokeThirteenTest"/>
+        <method signature="PluSmokeThreeTest.smoke04()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeThreeTest@2a9d1058]" name="smoke04" class="com.kohls.app.pro.Smoke.PluSmokeThreeTest"/>
+        <method signature="PluSmokeTwelveTest.smoke12()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwelveTest@7cbae009]" name="smoke12" class="com.kohls.app.pro.Smoke.PluSmokeTwelveTest"/>
+        <method signature="PluSmokeTwentyTest.smoke13()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwentyTest@25286ff8]" name="smoke13" class="com.kohls.app.pro.Smoke.PluSmokeTwentyTest"/>
+        <method signature="PluSmokeTwoTest.PPR_76_92_Populate_Ad_Event_03()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwoTest@26bd65e3]" name="PPR_76_92_Populate_Ad_Event_03" class="com.kohls.app.pro.Smoke.PluSmokeTwoTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Command line test" duration-ms="1047768" started-at="2016-08-10T15:57:13Z" finished-at="2016-08-10T16:14:41Z">
+      <class name="com.kohls.app.pro.Smoke.PluSmokeFifteenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFifteenTest@62bb4719]" name="setUp" is-config="true" duration-ms="4191" started-at="2016-08-10T10:59:33Z" finished-at="2016-08-10T10:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke17()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFifteenTest@62bb4719]" name="smoke17" duration-ms="23352" started-at="2016-08-10T10:59:37Z" finished-at="2016-08-10T11:00:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Pricing Strategy Page is not navigated]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Pricing Strategy Page is not navigated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.UpdatePriceDetailsPriceStrategyPage(AbstractTest.java:382)
+	at com.kohls.app.pro.Smoke.PluSmokeFifteenTest.smoke17(PluSmokeFifteenTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke17 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFifteenTest@62bb4719]" name="tearDown" is-config="true" duration-ms="1352" started-at="2016-08-10T11:00:00Z" finished-at="2016-08-10T11:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeFifteenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeEighteenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeEighteenTest@298a84ed]" name="setUp" is-config="true" duration-ms="6066" started-at="2016-08-10T10:58:10Z" finished-at="2016-08-10T10:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke16()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeEighteenTest@298a84ed]" name="smoke16" duration-ms="39728" started-at="2016-08-10T10:58:16Z" finished-at="2016-08-10T10:58:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ad Event page is not udpated]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeEighteenTest.smoke16(PluSmokeEighteenTest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke16 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeEighteenTest@298a84ed]" name="tearDown" is-config="true" duration-ms="1394" started-at="2016-08-10T10:58:56Z" finished-at="2016-08-10T10:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeEighteenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeTwentyTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwentyTest@25286ff8]" name="setUp" is-config="true" duration-ms="5895" started-at="2016-08-10T11:13:04Z" finished-at="2016-08-10T11:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke13()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwentyTest@25286ff8]" name="smoke13" duration-ms="35795" started-at="2016-08-10T11:13:10Z" finished-at="2016-08-10T11:13:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TestCase Validate_price_in_strategy_screen_TC13failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TestCase Validate_price_in_strategy_screen_TC13failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeTwentyTest.smoke13(PluSmokeTwentyTest.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke13 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwentyTest@25286ff8]" name="tearDown" is-config="true" duration-ms="1661" started-at="2016-08-10T11:13:46Z" finished-at="2016-08-10T11:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeTwentyTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeTwelveTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwelveTest@7cbae009]" name="setUp" is-config="true" duration-ms="5316" started-at="2016-08-10T11:12:27Z" finished-at="2016-08-10T11:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke12()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwelveTest@7cbae009]" name="smoke12" duration-ms="30156" started-at="2016-08-10T11:12:33Z" finished-at="2016-08-10T11:13:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Pricing Strategy Page is not navigated]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Pricing Strategy Page is not navigated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.UpdatePriceDetailsPriceStrategyPage(AbstractTest.java:382)
+	at com.kohls.app.pro.Smoke.PluSmokeTwelveTest.smoke12(PluSmokeTwelveTest.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke12 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwelveTest@7cbae009]" name="tearDown" is-config="true" duration-ms="1618" started-at="2016-08-10T11:13:03Z" finished-at="2016-08-10T11:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeTwelveTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeSevenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSevenTest@5edd9a4d]" name="setUp" is-config="true" duration-ms="1988" started-at="2016-08-10T11:05:06Z" finished-at="2016-08-10T11:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke10()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSevenTest@5edd9a4d]" name="smoke10" duration-ms="33679" started-at="2016-08-10T11:05:08Z" finished-at="2016-08-10T11:05:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TestCase PPR_100_189_Simple_Percent_off_Pricing_strategy_screen_TC_10failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TestCase PPR_100_189_Simple_Percent_off_Pricing_strategy_screen_TC_10failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeSevenTest.smoke10(PluSmokeSevenTest.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke10 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSevenTest@5edd9a4d]" name="tearDown" is-config="true" duration-ms="1326" started-at="2016-08-10T11:05:42Z" finished-at="2016-08-10T11:05:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeSevenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeNineTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeNineTest@4db3ea55]" name="setUp" is-config="true" duration-ms="5450" started-at="2016-08-10T11:01:56Z" finished-at="2016-08-10T11:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke05()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeNineTest@4db3ea55]" name="smoke05" duration-ms="72499" started-at="2016-08-10T11:02:02Z" finished-at="2016-08-10T11:03:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TestCase PPR_100_189_Simple_Price_point_TC_05failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TestCase PPR_100_189_Simple_Price_point_TC_05failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeNineTest.smoke05(PluSmokeNineTest.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke05 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeNineTest@4db3ea55]" name="tearDown" is-config="true" duration-ms="1467" started-at="2016-08-10T11:03:14Z" finished-at="2016-08-10T11:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeNineTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeSeventeenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSeventeenTest@47585f2e]" name="setUp" is-config="true" duration-ms="8582" started-at="2016-08-10T11:05:43Z" finished-at="2016-08-10T11:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke14()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSeventeenTest@47585f2e]" name="smoke14" duration-ms="46674" started-at="2016-08-10T11:05:52Z" finished-at="2016-08-10T11:06:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ad Event page is not udpated]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeSeventeenTest.smoke14(PluSmokeSeventeenTest.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke14 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSeventeenTest@47585f2e]" name="tearDown" is-config="true" duration-ms="1348" started-at="2016-08-10T11:06:39Z" finished-at="2016-08-10T11:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeSeventeenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeTwoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwoTest@26bd65e3]" name="setUp" is-config="true" duration-ms="5466" started-at="2016-08-10T11:13:48Z" finished-at="2016-08-10T11:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="PPR_76_92_Populate_Ad_Event_03()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwoTest@26bd65e3]" name="PPR_76_92_Populate_Ad_Event_03" duration-ms="46405" started-at="2016-08-10T11:13:53Z" finished-at="2016-08-10T11:14:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ad Event page is not udpated]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeTwoTest.PPR_76_92_Populate_Ad_Event_03(PluSmokeTwoTest.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PPR_76_92_Populate_Ad_Event_03 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTwoTest@26bd65e3]" name="tearDown" is-config="true" duration-ms="1495" started-at="2016-08-10T11:14:40Z" finished-at="2016-08-10T11:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeTwoTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeFiveTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFiveTest@16045886]" name="setUp" is-config="true" duration-ms="4452" started-at="2016-08-10T11:00:02Z" finished-at="2016-08-10T11:00:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke11()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFiveTest@16045886]" name="smoke11" duration-ms="30888" started-at="2016-08-10T11:00:06Z" finished-at="2016-08-10T11:00:37Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Pricing Strategy Page is not navigated]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Pricing Strategy Page is not navigated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.UpdatePriceDetailsPriceStrategyPage(AbstractTest.java:382)
+	at com.kohls.app.pro.Smoke.PluSmokeFiveTest.smoke11(PluSmokeFiveTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke11 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFiveTest@16045886]" name="tearDown" is-config="true" duration-ms="1336" started-at="2016-08-10T11:00:37Z" finished-at="2016-08-10T11:00:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeFiveTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeTenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTenTest@2d95ebec]" name="setUp" is-config="true" duration-ms="4734" started-at="2016-08-10T11:09:47Z" finished-at="2016-08-10T11:09:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke09()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTenTest@2d95ebec]" name="smoke09" duration-ms="51555" started-at="2016-08-10T11:09:51Z" finished-at="2016-08-10T11:10:43Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TestCase PPR_100_189_Simple_Price_point_Template_screen_TC_09failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TestCase PPR_100_189_Simple_Price_point_Template_screen_TC_09failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeTenTest.smoke09(PluSmokeTenTest.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke09 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeTenTest@2d95ebec]" name="tearDown" is-config="true" duration-ms="1288" started-at="2016-08-10T11:10:43Z" finished-at="2016-08-10T11:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeTenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeNineteenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeNineteenTest@1fd3297]" name="setUp" is-config="true" duration-ms="6906" started-at="2016-08-10T11:03:16Z" finished-at="2016-08-10T11:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke15()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeNineteenTest@1fd3297]" name="smoke15" duration-ms="61998" started-at="2016-08-10T11:03:23Z" finished-at="2016-08-10T11:04:25Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ad Event page is not udpated]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeNineteenTest.smoke15(PluSmokeNineteenTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke15 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeNineteenTest@1fd3297]" name="tearDown" is-config="true" duration-ms="1377" started-at="2016-08-10T11:04:25Z" finished-at="2016-08-10T11:04:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeNineteenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeElevenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeElevenTest@45f0690a]" name="setUp" is-config="true" duration-ms="4121" started-at="2016-08-10T10:58:57Z" finished-at="2016-08-10T10:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="smoke08()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeElevenTest@45f0690a]" name="smoke08" duration-ms="30353" started-at="2016-08-10T10:59:01Z" finished-at="2016-08-10T10:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke08 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeElevenTest@45f0690a]" name="tearDown" is-config="true" duration-ms="1479" started-at="2016-08-10T10:59:31Z" finished-at="2016-08-10T10:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeElevenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeFourTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFourTest@6c4c3ffd]" name="setUp" is-config="true" duration-ms="4997" started-at="2016-08-10T11:00:39Z" finished-at="2016-08-10T11:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="smoke01()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFourTest@6c4c3ffd]" name="smoke01" duration-ms="19699" started-at="2016-08-10T11:00:44Z" finished-at="2016-08-10T11:01:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFourTest@6c4c3ffd]" name="tearDown" is-config="true" duration-ms="1277" started-at="2016-08-10T11:01:03Z" finished-at="2016-08-10T11:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeFourTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeSixTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSixTest@66838fd6]" name="setUp" is-config="true" duration-ms="5706" started-at="2016-08-10T11:06:40Z" finished-at="2016-08-10T11:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke07()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSixTest@66838fd6]" name="smoke07" duration-ms="89719" started-at="2016-08-10T11:06:46Z" finished-at="2016-08-10T11:08:15Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ad Event page is not udpated]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeSixTest.smoke07(PluSmokeSixTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke07 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSixTest@66838fd6]" name="tearDown" is-config="true" duration-ms="1992" started-at="2016-08-10T11:08:15Z" finished-at="2016-08-10T11:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeSixTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeThreeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeThreeTest@2a9d1058]" name="setUp" is-config="true" duration-ms="5437" started-at="2016-08-10T11:11:29Z" finished-at="2016-08-10T11:11:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke04()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeThreeTest@2a9d1058]" name="smoke04" duration-ms="51094" started-at="2016-08-10T11:11:35Z" finished-at="2016-08-10T11:12:26Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ad Event is not popualted]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ad Event is not popualted
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.PopulateAdEvent(AbstractTest.java:283)
+	at com.kohls.app.pro.Smoke.PluSmokeThreeTest.smoke04(PluSmokeThreeTest.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke04 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeThreeTest@2a9d1058]" name="tearDown" is-config="true" duration-ms="1434" started-at="2016-08-10T11:12:26Z" finished-at="2016-08-10T11:12:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeThreeTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeOneTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeOneTest@7538ecf2]" name="setUp" is-config="true" duration-ms="11068" started-at="2016-08-10T11:04:26Z" finished-at="2016-08-10T11:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeOneTest@7538ecf2]" name="PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02" duration-ms="28074" started-at="2016-08-10T11:04:37Z" finished-at="2016-08-10T11:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PPR_76_92_Item_list_Execution_screen_DEPT_MCL_SCL_MIN_PRICE_TC_02 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeOneTest@7538ecf2]" name="tearDown" is-config="true" duration-ms="1373" started-at="2016-08-10T11:05:05Z" finished-at="2016-08-10T11:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeOneTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeThirteenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeThirteenTest@423cdbec]" name="setUp" is-config="true" duration-ms="4221" started-at="2016-08-10T11:10:44Z" finished-at="2016-08-10T11:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke20()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeThirteenTest@423cdbec]" name="smoke20" duration-ms="39433" started-at="2016-08-10T11:10:48Z" finished-at="2016-08-10T11:11:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ad Event page is not udpated]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeThirteenTest.smoke20(PluSmokeThirteenTest.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke20 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeThirteenTest@423cdbec]" name="tearDown" is-config="true" duration-ms="1329" started-at="2016-08-10T11:11:28Z" finished-at="2016-08-10T11:11:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeThirteenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeFourteenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFourteenTest@2d9c1743]" name="setUp" is-config="true" duration-ms="5040" started-at="2016-08-10T11:01:04Z" finished-at="2016-08-10T11:01:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke18()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFourteenTest@2d9c1743]" name="smoke18" duration-ms="45410" started-at="2016-08-10T11:01:10Z" finished-at="2016-08-10T11:01:55Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Ad Event page is not udpated]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Ad Event page is not udpated
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.AbstractTest.adEventSave(AbstractTest.java:327)
+	at com.kohls.app.pro.Smoke.PluSmokeFourteenTest.smoke18(PluSmokeFourteenTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke18 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeFourteenTest@2d9c1743]" name="tearDown" is-config="true" duration-ms="1285" started-at="2016-08-10T11:01:55Z" finished-at="2016-08-10T11:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeFourteenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeSixteenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSixteenTest@6e42593b]" name="setUp" is-config="true" duration-ms="7056" started-at="2016-08-10T11:08:17Z" finished-at="2016-08-10T11:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="smoke19()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSixteenTest@6e42593b]" name="smoke19" duration-ms="80751" started-at="2016-08-10T11:08:25Z" finished-at="2016-08-10T11:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke19 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeSixteenTest@6e42593b]" name="tearDown" is-config="true" duration-ms="1410" started-at="2016-08-10T11:09:45Z" finished-at="2016-08-10T11:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeSixteenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeEightTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeEightTest@5c6c2df3]" name="setUp" is-config="true" duration-ms="9610" started-at="2016-08-10T10:57:13Z" finished-at="2016-08-10T10:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="smoke06()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeEightTest@5c6c2df3]" name="smoke06" duration-ms="45261" started-at="2016-08-10T10:57:23Z" finished-at="2016-08-10T10:58:08Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TestCase PPR_100_189_Simple_Percent_off_TC_06failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TestCase PPR_100_189_Simple_Percent_off_TC_06failed
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.kohls.app.pro.Smoke.PluSmokeEightTest.smoke06(PluSmokeEightTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:189)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:105)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke06 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kohls.app.pro.Smoke.PluSmokeEightTest@5c6c2df3]" name="tearDown" is-config="true" duration-ms="1673" started-at="2016-08-10T10:58:08Z" finished-at="2016-08-10T10:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeEightTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

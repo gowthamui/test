@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <groups>
+      <run>
+        <include name="plusmoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.kohls.app.pro.Smoke.PluSmokeTwentyTest">
+        <methods>
+          <include name="smoke13"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeTwentyTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeSixteenTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeSixteenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeElevenTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeElevenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeSixTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="smoke07"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeSixTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeSeventeenTest">
+        <methods>
+          <include name="smoke14"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeSeventeenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeTwelveTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="smoke12"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeTwelveTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeThreeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="smoke04"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeThreeTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeFourteenTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="smoke18"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeFourteenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeOneTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeOneTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeFifteenTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="smoke17"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeFifteenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeFourTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeFourTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeFiveTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="smoke11"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeFiveTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeNineteenTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="smoke15"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeNineteenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeTenTest">
+        <methods>
+          <include name="smoke09"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeTenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeNineTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="smoke05"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeNineTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeSevenTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="smoke10"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeSevenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeTwoTest">
+        <methods>
+          <include name="PPR_76_92_Populate_Ad_Event_03"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeTwoTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeEightTest">
+        <methods>
+          <include name="smoke06"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeEightTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeThirteenTest">
+        <methods>
+          <include name="smoke20"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeThirteenTest -->
+      <class name="com.kohls.app.pro.Smoke.PluSmokeEighteenTest">
+        <methods>
+          <include name="smoke16"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.kohls.app.pro.Smoke.PluSmokeEighteenTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
